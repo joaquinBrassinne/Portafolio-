@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poopins', sans-serif;
+
+}
+
+.navbar a{
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.section-contacto a {
+    text-decoration: none;
+}
+
+.carousel-item{
+    min-height: 200px;
+}
+
+.carousel-caption{
+    bottom: 200px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 70px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.carousel-caption p{
+    width: 70%;
+    margin: 40px auto;
+    font-size: 18px;
+}
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.services{
+    padding: 80px 0;
+}
+
+.bg-car1{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ), url(./imagenes/depositphotos_75272709-stock-photo-java-concept.webp);
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-car2{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(./imagenes/front-end-developer-contratar-ahora-3d-hxxeka.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+
+.bg-car3{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(./imagenes/apertura-de-trabajo-desarrollador-back-end-3d-h8yttd.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.section-contacto i{
+    font-size: 40px;
+}
+
+.section-contacto h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#cursos {
+    
+    width: auto;
+    height: auto;
+}
+
+
+.card img{
+    width: 150px;
+    height: 150px;
+}
+
+.banner{
+    padding: 50px 0;
+    margin-bottom: 80px;
+    background-color: #eae5df;
+}
+
+.banner h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.banner img{
+    width: 200px;
+}
+
+#yo{
+    display: flex;
+    width: 600px;
+    height: 430px;
+    margin-left: 240px;
+}
+
+#yo img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+#yo img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+
+
+@media(max-width:767px) {
+    .carousel-item{
+        min-height: 500px;       
+    }
+
+    .carousel-item img{
+        height: 500px;
+    }
+
+    .carousel-caption{
+        bottom: 30px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 50px;
+        margin-top: 0;
+    }
+    
+    .carousel-caption p{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .services {
+        padding: 30px 0;
+    }
+
+    .cursos{
+        padding: 30px 0 0 0;
+    }
+
+    .banner{
+        margin-bottom: 30px;
+    }
+
+    #yo{
+        margin-left: 0px;
+        
+    }
+}
