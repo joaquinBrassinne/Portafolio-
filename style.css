@@ -5,6 +5,7 @@
 
 }
 
+
 .navbar a{
     font-weight: 600;
     font-size: 18px;
@@ -36,6 +37,12 @@
     margin: 40px auto;
     font-size: 18px;
 }
+
+.proyecto a{
+    text-decoration: none;
+    color: white;
+}
+
 
 .carousel-inner::before{
     content: '';
@@ -77,6 +84,33 @@
     background-image: linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)), url(./imagenes/apertura-de-trabajo-desarrollador-back-end-3d-h8yttd.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.bg-car4{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(./imagenes/spring-framework-800x400.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.bg-car6{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(./imagenes/Angular-imagen.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.bg-car7{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(./imagenes/Angular-imagen.webp);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -139,6 +173,13 @@
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
+}
+footer a {
+    text-decoration: none;
+}
+
+footer h6{
+    text-decoration: overline;
 }
 
 
