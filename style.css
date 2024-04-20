@@ -168,10 +168,6 @@ footer h6 {
   text-decoration: overline;
 }
 
-.proyecto {
-  color: white;
-  background-color: black;
-}
 
 @media (max-width: 767px) {
   .carousel-item {
